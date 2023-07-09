@@ -8,6 +8,21 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
+    }
+    .sub-but:hover {
+        opacity: 0.8;
+    }
+    .sub-but:active {
+        opacity: 0.4;
+    }
+    .join-but:hover {
+        background-color: blue;
+        color: white;
+        opacity: 0.8;
+    }
+    .join-but:active{
+        opacity: 0.4;
     }
     .join-but{
         background-color: white;
@@ -18,6 +33,7 @@
         border-radius: 2px;
         border-color: blue;
         cursor: pointer;
+        transition:background-color 0.15s , color 0.15s;
     }
     .tweet-but{
         background-color: rgb(55, 173, 241);
@@ -30,6 +46,12 @@
         border-radius: 30px;
         cursor: pointer;
         margin-left: 8px;
+        transition:box-shadow 0.15s;
+
+    }
+    .tweet-but:hover{
+        box-shadow:5px 5px 10px rgba(0, 0 , 0, 0.15);
+
     }
 </style>
 
